@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* regra @charset caso haja problemas com acentuação*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor01: #f2fff8;
+    --cor02: #F02C1E;
+    --cor03: #D6180B;
+    --cor04: #A31208;
+    --cor05: #59322F;
+    --cor06: #590A04;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: auto;
+    padding-bottom: 10px;
+    color: white;           
+}
+
+header img {
+    display: inline;
+}
+
+header h1 {
+    display: inline;
+}
+nav {
+    background-color: var(--cor04);
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+}
+
+nav a {
+    padding: 5px 40px;
+}
+
+a {
+    font-family: var(--fonte-destaque);
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    
+    
+}
+
+a:hover {
+    color: black;
+    background-color: var(--cor06);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: black; 
+    margin-bottom: 20px; 
+    
+}
+
+main h1 {
+    padding: 20px;
+    font-size: 3em;
+    font-family: var(--fonte-destaque);
+}
+
+main p {
+    padding: 20px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+
+
+footer {
+    background-color: var(--cor04);
+    text-align: center;
+    
+    font-family: var(--fonte-destaque);
+    color: white;
+
+}
