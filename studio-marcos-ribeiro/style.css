@@ -21,30 +21,24 @@
 }
 
 header {
-    background-color: black;
-    height: 150px;
+    background-color: var(--cor06);
+    height: 50px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     margin: auto;
-    padding-bottom: 10px;
     color: white;           
 }
 
-header img {
-    display: inline;
-}
 
-header h1 {
-    display: inline;
-}
-nav {
-    background-color: var(--cor04);
+header > nav {
+    
     margin: auto;
+    padding-top: 10px;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
 }
 
-nav a {
+header>nav>a {
     padding: 5px 40px;
 }
 
@@ -58,39 +52,76 @@ a {
 }
 
 a:hover {
-    color: black;
-    background-color: var(--cor06);
+    color: rgb(0, 0, 0);
+    background-color: white;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 40px;
 }
 
-main {
-    background-color: white;
-    max-width: 900px;
-    text-align: center;
-    margin: auto;
-    border-radius: 20px;
-    border: 2px;
-    border-style: solid;
-    border-color: black; 
-    margin-bottom: 20px; 
+section {
+    background-image: url(imagens/wallpapper-inicio-w1300.jpg);
+    height: 250px;
+    color: white;
+  
+}
+
+section h1 {
+    font-family: var(--fonte-destaque);
+    width: 200px;
+    padding: 70px 0px;
     
 }
 
-main h1 {
-    padding: 20px;
-    font-size: 3em;
-    font-family: var(--fonte-destaque);
+section img {
+    padding: 40px 0px;
 }
 
-main p {
-    padding: 20px;
-    font-family: var(--fonte-destaque);
-    font-size: 1.5em;
+section ul {
+    height: 250px;
+    padding: 0px
+}
+section li {
+    width: 442px;
+    margin: auto;
+    padding: 0px;
+}
+div.conteiner {
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+main {
+    max-width: 900px;
+    
+    background-color: rgb(182, 182, 182);
+    margin: auto;
+    display: flex
+}
+
+
+
+ul {
+    display: flexbox;
+    list-style-position: inside;
+    list-style-type:none;
+    columns: 2;
+    
+}
+
+li {
+    height: 250px;
+    text-align: center;
+}
+
+li p {
+    font-size: 18px;
     text-align: justify;
+    padding: 20px 40px ;
 }
-
-
 
 footer {
     background-color: var(--cor04);
