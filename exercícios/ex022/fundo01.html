@@ -9,6 +9,15 @@
         body {
             background-image: url(imagens/wallpaper001.jpg);
         }
+        
+        #container {
+            background-color: aqua;
+            width: 950px;
+            height: 100vw;
+            margin:auto;
+            position: relative;
+        }
+        
         div.quadrado {
             border: 1px solid black;
             width: 300px;
@@ -16,33 +25,37 @@
             border-radius: 10px;
             display: inline-block;
             background-color: lightgray;
+            position: absolute;
         }
 
         div#q1 {
             background-color: blue;
+            top: 200px;
         }
 
         div#q2 {
             background-image: linear-gradient(to top, yellow, red );
+            left: 300px;
         }
 
         div#q3 {
             background-image: url(imagens/pattern002.png);
+            left: 600px;
+            top: 400px;
         }
     </style>
 </head>
 <body>
-    <div class="quadrado" id="q1">
-
-    </div>
-    
-    <div class="quadrado" id="q2">
-
-    </div>
-    
-    <div class="quadrado" id="q3">
-
-    </div>
+    <section id="container">
+        <div class="quadrado" id="q1">
+        </div>
+        
+        <div class="quadrado" id="q2">
+        </div>
+        
+        <div class="quadrado" id="q3">
+        </div>
+    </section>
     
 </body>
 </html>

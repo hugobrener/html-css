@@ -22,11 +22,12 @@
 
 header {
     background-color: var(--cor06);
-    height: 50px;
+    min-height: 50px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     margin: auto;
-    color: white;           
+    color: white; 
+    display: flex;          
 }
 
 
@@ -58,70 +59,70 @@ a:hover {
     padding: 5px 40px;
 }
 
-section {
+.container {
     background-image: url(imagens/wallpapper-inicio-w1300.jpg);
-    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 250px;
     color: white;
+    position: relative;
   
+}
+
+div#q1 {
+    margin:auto;   
+}
+
+div#q2 {
+    margin:auto;   
+
 }
 
 section h1 {
     font-family: var(--fonte-destaque);
     width: 200px;
-    padding: 70px 0px;
+    
     
 }
 
-section img {
-    padding: 40px 0px;
-}
 
-section ul {
-    height: 250px;
-    padding: 0px
-}
-section li {
-    width: 442px;
-    margin: auto;
-    padding: 0px;
-}
-div.conteiner {
+
+
+
+
+
+.conteudo {
     max-width: 900px;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
     display: flex;
-    margin: auto;
-    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main div#img1 {
+    padding-top: 20px;
 }
 
 
 
-main {
-    max-width: 900px;
-    
-    background-image: url(imagens/wallpaper.jpg);
-    margin: auto;
-    display: flex
-}
-
-
-
-ul {
-    display: flexbox;
-    list-style-position: inside;
-    list-style-type:none;
-    columns: 2;
-    
-}
-
-li {
-    height: 250px;
-    text-align: center;
-}
-
-li p {
+main p {
     font-size: 18px;
     text-align: justify;
-    padding: 20px 40px ;
-    color: white;
+    padding: 20px 20px ;
+    color: black;
+    max-width: 340px;
+}
+
+.links {
+    min-height: 250px;
+    background-image: url(imagens/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
