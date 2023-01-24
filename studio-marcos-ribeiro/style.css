@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --cor01: #f2fff8;
+    --cor01: #ffffff;
     --cor02: #F02C1E;
     --cor03: #D6180B;
     --cor04: #A31208;
@@ -20,6 +20,9 @@
     margin: 0px;
 }
 
+body {
+    background-color: black;
+}
 header {
     background-color: var(--cor06);
     min-height: 50px;
@@ -96,7 +99,7 @@ section h1 {
 
 .conteudo {
     max-width: 900px;
-    background-color: rgb(240, 240, 240);
+    background-color:var(--cor01);
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -119,16 +122,26 @@ main p {
 }
 
 .links {
+    padding: 30px;
     min-height: 250px;
     background-image: url(imagens/wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    font-family: var(--fonte-padrao);
 }
 
+button {
+    width: 70px;
+    height: 20px;
+    background-color: #590A04;
+    border: 2px solid black  ;
+    border-radius: 5px;
+    color: white;
+}
 footer {
     background-color: var(--cor04);
     text-align: center;
-    
     font-family: var(--fonte-destaque);
     color: white;
 
