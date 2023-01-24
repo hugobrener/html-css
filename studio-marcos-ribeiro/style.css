@@ -97,7 +97,7 @@ div.conteiner {
 main {
     max-width: 900px;
     
-    background-color: rgb(182, 182, 182);
+    background-image: url(imagens/wallpaper.jpg);
     margin: auto;
     display: flex
 }
@@ -121,6 +121,7 @@ li p {
     font-size: 18px;
     text-align: justify;
     padding: 20px 40px ;
+    color: white;
 }
 
 footer {
