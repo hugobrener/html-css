@@ -84,9 +84,11 @@ div#q2 {
 
 }
 
+
 section h1 {
     font-family: var(--fonte-destaque);
-    width: 200px;
+    width: 400px;
+    font-size: 3vw;
     
     
 }
@@ -98,7 +100,7 @@ section h1 {
 
 
 .conteudo {
-    max-width: 900px;
+    
     background-color:var(--cor01);
     margin: auto;
     display: flex;
@@ -108,10 +110,16 @@ section h1 {
 }
 
 main div#img1 {
+    background-color: black;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-
+main div#img1 > p {
+    color: white;
+}
 
 main p {
     font-size: 18px;
